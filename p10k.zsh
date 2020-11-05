@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-# .theme:
-#     A custome theme based on the POWERLEVEL10K
+# p10k.zsh:
+#     A custom theme based on POWERLEVEL10K.
 # author: Everett
 # created: 2020-11-04 14:35
 # Github: https://github.com/antiqueeverett/
