@@ -174,7 +174,7 @@ fi
   typeset -g POWERLEVEL9K_STATUS_BACKGROUND='clear'
 
   # segment separator
-  typeset -g POWERLEVEL9K_RIGHT_SUBSEGMENT_SEPARATOR="%F{246} |"
+  typeset -g POWERLEVEL9K_RIGHT_SUBSEGMENT_SEPARATOR="%F{246}|"
 
   # # execution time
   typeset -g POWERLEVEL9K_EXECUTION_TIME_ICON='神'
