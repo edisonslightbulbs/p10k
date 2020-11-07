@@ -12,9 +12,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 () {
-  # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-  # CONFIGURATION:
-  # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   emulate -L zsh -o extended_glob
   autoload -Uz is-at-least && is-at-least 5.1 || return
   unset -m '(POWERLEVEL9K_*|DEFAULT_USER)~POWERLEVEL9K_GITSTATUS_DIR'
@@ -23,13 +20,13 @@ fi
   typeset -g POWERLEVEL9K_MODE=nerdfont-complete
   typeset -g POWERLEVEL9K_ICON_PADDING=moderate
 
-  # set icons before content on both sides
+  # set icons before content
   typeset -g POWERLEVEL9K_ICON_BEFORE_CONTENT=true
 
   # new empty line before prompt
   typeset -g POWERLEVEL9K_PROMPT_ADD_NEWLINE=false
 
-  # connect left and right prompt using
+  # connect left and right prompts
   typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=
   typeset -g POWERLEVEL9K_MULTILINE_NEWLINE_PROMPT_PREFIX=
   typeset -g POWERLEVEL9K_MULTILINE_FIRST_PROMPT_SUFFIX=
